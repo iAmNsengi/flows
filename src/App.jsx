@@ -1,4 +1,3 @@
-import './App.css'
 import Flow1 from './components/Flow1'
 
 function App() {
