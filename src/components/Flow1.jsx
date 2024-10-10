@@ -17,7 +17,7 @@ const Flow1 = () => {
 
   return (
     <div style={{width:'100vw', height:"100vh"}}>
-        <ReactFlow nodes={initialNodes} edges={initialEdges} onNodesChange={onNodesChange} onEdgesChange={onEdgesChange} onConnect={onConnect}>
+        <ReactFlow nodes={nodes} edges={edges} onNodesChange={onNodesChange} onEdgesChange={onEdgesChange} onConnect={onConnect}>
 
             <Controls />
             <MiniMap />
