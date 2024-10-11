@@ -13,7 +13,6 @@ const Flow1 = () => {
     const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes)
     const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges)
 
-
     const onConnect = useCallback((params)=> setEdges((eds)=> addEdge(params, eds)), [setEdges])
 
   return (
